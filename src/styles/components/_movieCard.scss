@@ -1,0 +1,28 @@
+.movie-card {
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    max-width: 300px;
+    width: 275px;
+}
+
+.movie-card.card {
+    height: 450px;
+}
+
+.card-footer-badge {
+    font-size: 1rem;
+}
+
+
+$break-small: 320px;
+$break-large: 1200px;
+
+.movie-card {
+  @media screen and (max-width: $break-small) {
+    width: 203px;
+  }
+  @media screen and (min-width: $break-small) and (max-width: $break-large) {
+    width:203px;
+  }
+}
